@@ -1,13 +1,6 @@
 @echo off
-title " Genisys installer 0.0.1 by Okin_Japan"
 set TITLE=Genisys installer by Okin_Japan
 echo %TITLE%
-echo.
-echo " *  ____            _        _   __  __ _                  __  __ ____"
-echo " * |  _ \ ___   ___| | _____| |_|  \/  (_)_ __   ___      |  \/  |  _ \"
-echo " * | |_) / _ \ / __| |/ / _ \ __| |\/| | | '_ \ / _ \_____| |\/| | |_) |"
-echo " * |  __/ (_) | (__|   <  __/ |_| |  | | | | | |  __/_____| |  | |  __/"
-echo " * |_|   \___/ \___|_|\_\___|\__|_|  |_|_|_| |_|\___|     |_|  |_|_|" 
 REM :lang
 REM improving
 REM echo *********** Select your langage ************
