@@ -1,5 +1,5 @@
 @echo off
-title Genisys installer 0.0.1 by Okin_Japan
+titl"e Genisys installer 0.0.1 by Okin_Japan"
 set TITLE=Genisys installer by Okin_Japan
 echo %TITLE%
 echo.
