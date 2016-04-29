@@ -129,7 +129,18 @@ del master
 move Genisys-master\src src
 move Genisys-master\start.cmd start.cmd
 rd /s /q Genisys-master
-echo @echo off & tools\wget --no-check-certificate https://github.com/iTXTech/Genisys/archive/master.zip & echo "Updating Genisys" & tools\7z x master & del master & move Genisys-master\src src & move Genisys-master\start.cmd start.cmd & rd /s /q Genisys-master > update.bat
+echo @echo off > update.bat
+>> update.bat echo rd /s /q src
+>> update.bat echo rd /s /q start.cmd
+>> update.bat echo tools\wget --no-check-certificate https://github.com/iTXTech/Genisys/archive/master.zip
+echo echo "Updating Genisys" >> update.bat 
+>> update.bat echo tools\7z x master 
+>> update.bat echo del master
+>> update.bat echo move Genisys-master\src src
+>> update.bat echo move Genisys-master\start.cmd start.cmd
+>> update.bat echo rd /s /q Genisys-master
+>> update.bat echo echo "Update complate!"
+>> update.bat echo pause
 echo "All Done! Enjoy your Minecraft PE Server!"
 
 set /p NUM="Do you want to start your server?/サーバーを起動しますか?(Y/n)"
