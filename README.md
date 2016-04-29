@@ -17,7 +17,7 @@ Enjoy your Minecraft PE!
 
 Download
 
-https://www.okin-jp.net/Genisys/Genisys-installer.zip
+https://github.com/OkinJapan/Genisys-inst/releases
 
 ToDo
 
