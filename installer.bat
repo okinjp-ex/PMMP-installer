@@ -6,7 +6,7 @@ REM improving
 REM echo *********** Select your langage ************
 REM echo "*[English] > 1"
 REM echo "*[“ú–{Œê]  > 2"
-REM echo "*[(ƒƒVƒAŒê‚Ì—\’è)] „ 3"
+REM echo "*[(ƒƒVƒAŒê(„‚„…„ƒ„ƒ„{„y„z))] „ 3"
 REM echo *********************************************
 REM echo.
 REM set /p NUM0="Select your language in the number.>"
