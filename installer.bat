@@ -100,7 +100,7 @@ goto inst7-32
 echo "Installing Visual C++ Redistributable for Visual Studio 2015.Follow the window."
 VC2015\vc_redist.x64.exe 
 echo "Downloading PHP7"
-tools\wget --no-check-certificate https://github.com/iTXTech/PHP-Genisys/blob/master/php7/win_x86/php_7.0.8_win_x86.tar.xz?raw=true
+tools\wget --no-check-certificate https://github.com/iTXTech/PHP-Genisys/blob/master/php7/win_x64/php_7.0.8_win_x64.tar.xz?raw=true
 echo "Installing PHP7"
 tools\7z.exe x -obin\ php_7.0.8_win_x64.tar.xz
 tools\7z.exe x bin\php_7.0.8_win_x64.tar
