@@ -1,0 +1,21 @@
+:src-genisys
+REM echo "Donwloading Genisys"
+REM tools\wget --no-check-certificate https://github.com/iTXTech/Genisys/archive/master.zip
+REM echo "Installing Genisys"
+REM tools\7z x master
+REM del master
+REM move Genisys-master\src src
+REM move Genisys-master\start.cmd start.cmd
+REM rd /s /q Genisys-master
+REM echo @echo off > update.bat
+REM >> update.bat echo rd /s /q src
+REM >> update.bat echo rd /s /q start.cmd
+REM >> update.bat echo tools\wget --no-check-certificate https://github.com/iTXTech/Genisys/archive/master.zip
+REM echo echo "Updating Genisys" >> update.bat 
+REM >> update.bat echo tools\7z x master 
+REM >> update.bat echo del master
+REM >> update.bat echo move Genisys-master\src src
+REM >> update.bat echo move Genisys-master\start.cmd start.cmd
+REM >> update.bat echo rd /s /q Genisys-master
+REM >> update.bat echo echo "Update complate!"
+REM >> update.bat echo pause
