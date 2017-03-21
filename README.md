@@ -1,9 +1,9 @@
-# Genisys-inst
-Perfect Genisys Installer!
+# PMMP-installer
+Perfect PocketMine-MP easy Installer!
 
 How to
 
-1,Download zip from Github.
+1,Download zip from bottom link.
 
 2,Unzip it.
 
@@ -19,7 +19,7 @@ Enjoy your Minecraft PE!
 
 Download
 
-https://github.com/OkinJapan/Genisys-inst/releases
+https://github.com/OkinJapan/PMMP-installer/releases
 
 Third-party Libraries/Protocols Used
 wget - Download files
