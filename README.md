@@ -22,8 +22,11 @@ Download
 https://github.com/OkinJapan/PMMP-installer/releases
 
 Third-party Libraries/Protocols Used
+
 wget - Download files
+
 7z - Unzip files
+
 
 ToDo
 
