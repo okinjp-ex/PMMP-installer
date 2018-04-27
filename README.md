@@ -1,4 +1,6 @@
 # PMMP-installer
+**This Installer may be outdated**
+
 Perfect PocketMine-MP easy Installer!
 
 How to
