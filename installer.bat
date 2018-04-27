@@ -5,8 +5,8 @@ REM :lang
 REM improving
 REM echo *********** Select your langage ************
 REM echo "*[English] > 1"
-REM echo "*[“ú–{Œê]  > 2"
-REM echo "*[(ƒƒVƒAŒê(„‚„…„ƒ„ƒ„{„y„z))] „ 3"
+REM echo "*[æ—¥æœ¬èª]  > 2"
+REM echo "*[(ãƒ­ã‚·ã‚¢èª(Ñ€ÑƒÑÑĞºĞ¸Ğ¹))] ï¼ 3"
 REM echo *********************************************
 REM echo.
 REM set /p NUM0="Select your language in the number.>"
@@ -14,8 +14,11 @@ REM if "%NUM0%"=="1" goto checkbit
 REM if "%NUM0%"=="2" goto checkbit-jpn
 REM if "%NUM0%"=="3" goto checkbit-rus
 REM if "%NUM0%"=="" goto confirm
-
-set /p NUM="Do you want to continue?/‘±s‚µ‚Ü‚·‚©?(y/N)"
+echo ***************** Warning *******************
+echo       This installer may be outdated.
+echo *********************************************
+REM echo.
+set /p NUM="Do you want to continue?/ç¶šè¡Œã—ã¾ã™ã‹?(y/N)"
 if "%NUM%"=="y" goto checkbit
 if "%NUM%"=="n" goto end
 if "%NUM%"=="N" goto end
@@ -165,7 +168,7 @@ del master
 rd /s /q src
 move BlueLight-master\src src
 move BlueLight-master\start.cmd start.cmd
-move BlueLight-master\“ú–{Œêà–¾‘.properties “ú–{Œêà–¾‘.properties
+move BlueLight-master\æ—¥æœ¬èªèª¬æ˜æ›¸.properties æ—¥æœ¬èªèª¬æ˜æ›¸.properties
 rd /s /q BlueLight-master
 echo @echo off > update.bat
 >> update.bat echo rd /s /q src
@@ -355,7 +358,7 @@ goto done
 :pmmp-inst9
 rem Reset
 set USR_INPUT_URL=
-rem “ü—Í—v‹
+rem å…¥åŠ›è¦æ±‚
 set /P USR_INPUT_URL="Please input Github page url: "
 echo "%USR_INPUT_URL% OK?"
 set /p NUMj="Do you want to Continue?(Y/n)"
@@ -368,7 +371,7 @@ goto pmmp-inst9-srcname
 :pmmp-inst9-srcname
 rem Reset
 set USR_INPUT_NAME=
-rem “ü—Í—v‹
+rem å…¥åŠ›è¦æ±‚
 set /P USR_INPUT_NAME="Please input Github src name: "
 echo %USR_INPUT_URL% | find "%USR_INPUT_NAME%" >NUL
 if not ERRORLEVEL 1 goto pmmp-inst9-srcname-v
@@ -386,7 +389,7 @@ goto pmmp-inst9-branch
 :pmmp-inst9-branch
 rem set master
 set USR_INPUT_BRANCH=master
-rem “ü—Í—v‹
+rem å…¥åŠ›è¦æ±‚
 set /P USR_INPUT_BRANCH="Please input Github src name(default:master): "
 echo "%USR_INPUT_BRANCH% OK?"
 set /p NUMl="Do you want to Continue?(Y/n)"
@@ -442,7 +445,7 @@ goto done
 :done
 echo "All Done! Enjoy your Minecraft PE Server!"
 
-set /p NUMi="Do you want to start your server?/ƒT[ƒo[‚ğ‹N“®‚µ‚Ü‚·‚©?(Y/n)"
+set /p NUMi="Do you want to start your server?/ã‚µãƒ¼ãƒãƒ¼ã‚’èµ·å‹•ã—ã¾ã™ã‹?(Y/n)"
 if "%NUMi%"=="y" goto start
 if "%NUMi%"=="Y" goto start
 if "%NUMi%"=="n" goto end
